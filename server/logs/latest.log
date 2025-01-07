@@ -1,0 +1,560 @@
+[15:22:36] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[15:22:36] [Server thread/INFO]: Loading properties
+[15:22:36] [Server thread/INFO]: Default game type: SURVIVAL
+[15:22:37] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[15:22:37] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
+[15:22:37] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
+[15:22:37] [Server thread/INFO]: Unable to find file ops.json, creating it.
+[15:22:37] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
+[15:22:37] [Server thread/INFO]: Debug logging is disabled
+[15:22:37] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[15:22:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[15:22:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:22:37] [Server thread/INFO]: Data value allowed items: 
+[15:22:37] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[15:22:37] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[15:22:37] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[15:22:37] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[15:22:37] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[15:22:37] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[15:22:37] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[15:22:37] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[15:22:37] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[15:22:37] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[15:22:37] [Server thread/INFO]: Generating keypair
+[15:22:37] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[15:22:37] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[15:22:37] [Server thread/INFO]: Using default channel type
+[15:22:37] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:22:38] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[15:22:38] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.121
+[15:22:42] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[15:22:42] [Server thread/INFO]: [PickBoat] Loading PickBoat v0.5
+[15:22:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.121
+[15:22:42] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[15:22:42] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.121[m
+
+[15:22:42] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[15:22:42] [Server thread/INFO]: [m
+
+[15:22:42] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:22:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:22:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:22:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:22:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2051ms)
+[15:22:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:22:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:22:44] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:22:44] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:22:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:22:44] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:22:44] [Server thread/INFO]: Preparing level "world"
+[15:22:44] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:22:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:22:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Mob Spawn Range: 4
+[15:22:44] [Server thread/INFO]: Anti X-Ray: true
+[15:22:44] [Server thread/INFO]: 	Engine Mode: 1
+[15:22:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:22:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:22:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:22:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:22:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:22:44] [Server thread/INFO]: Random Lighting Updates: false
+[15:22:44] [Server thread/INFO]: Structure Info Saving: true
+[15:22:44] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:22:44] [Server thread/INFO]: Max Entity Collisions: 8
+[15:22:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:22:44] [Server thread/INFO]: Max TNT Explosions: 100
+[15:22:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:22:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:22:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:22:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:22:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:22:44] [Server thread/INFO]: View Distance: 4
+[15:22:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:22:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:22:44] [Server thread/INFO]: Clear tick list: false
+[15:22:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:22:44] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:22:44] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:22:44] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:22:44] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:22:44] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:22:44] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:22:44] [Server thread/INFO]: Water over lava flow speed: 5
+[15:22:44] [Server thread/INFO]: Fix TNT cannons: false
+[15:22:44] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:22:44] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:22:44] [Server thread/INFO]: World async lighting: false
+[15:22:44] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:22:44] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:22:44] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:22:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:22:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:22:44] [Server thread/INFO]: Mob Spawn Range: 4
+[15:22:44] [Server thread/INFO]: Anti X-Ray: true
+[15:22:44] [Server thread/INFO]: 	Engine Mode: 1
+[15:22:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:22:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:22:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:22:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:22:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:22:44] [Server thread/INFO]: Random Lighting Updates: false
+[15:22:44] [Server thread/INFO]: Structure Info Saving: true
+[15:22:44] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:22:44] [Server thread/INFO]: Max Entity Collisions: 8
+[15:22:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:22:44] [Server thread/INFO]: Max TNT Explosions: 100
+[15:22:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:22:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:22:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:22:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:22:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:22:44] [Server thread/INFO]: View Distance: 4
+[15:22:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:22:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:22:44] [Server thread/INFO]: Clear tick list: false
+[15:22:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:22:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:22:45] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:22:45] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:22:45] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:22:45] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:22:45] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:22:45] [Server thread/INFO]: Water over lava flow speed: 5
+[15:22:45] [Server thread/INFO]: Fix TNT cannons: false
+[15:22:45] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:22:45] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:22:45] [Server thread/INFO]: World async lighting: false
+[15:22:45] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:22:45] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:22:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:22:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:22:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:22:45] [Server thread/INFO]: Mob Spawn Range: 4
+[15:22:45] [Server thread/INFO]: Anti X-Ray: true
+[15:22:45] [Server thread/INFO]: 	Engine Mode: 1
+[15:22:45] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:22:45] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:22:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:22:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:22:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:22:45] [Server thread/INFO]: Random Lighting Updates: false
+[15:22:45] [Server thread/INFO]: Structure Info Saving: true
+[15:22:45] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:22:45] [Server thread/INFO]: Max Entity Collisions: 8
+[15:22:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:22:45] [Server thread/INFO]: Max TNT Explosions: 100
+[15:22:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:22:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:22:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:22:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:22:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:22:45] [Server thread/INFO]: View Distance: 4
+[15:22:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:22:45] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:22:45] [Server thread/INFO]: Clear tick list: false
+[15:22:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:22:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:22:45] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:22:45] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:22:45] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:22:45] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:22:45] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:22:45] [Server thread/INFO]: Water over lava flow speed: 5
+[15:22:45] [Server thread/INFO]: Fix TNT cannons: false
+[15:22:45] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:22:45] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:22:45] [Server thread/INFO]: World async lighting: false
+[15:22:45] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:22:45] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:22:45] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4023477523326358908)
+[15:22:46] [Server thread/INFO]: Preparing spawn area: 5%
+[15:22:47] [Server thread/INFO]: Preparing spawn area: 9%
+[15:22:48] [Server thread/INFO]: Preparing spawn area: 14%
+[15:22:49] [Server thread/INFO]: Preparing spawn area: 19%
+[15:22:50] [Server thread/INFO]: Preparing spawn area: 25%
+[15:22:51] [Server thread/INFO]: Preparing spawn area: 34%
+[15:22:52] [Server thread/INFO]: Preparing spawn area: 43%
+[15:22:53] [Server thread/INFO]: Preparing spawn area: 57%
+[15:22:54] [Server thread/INFO]: Preparing spawn area: 70%
+[15:22:55] [Server thread/INFO]: Preparing spawn area: 83%
+[15:22:56] [Server thread/INFO]: Preparing spawn area: 94%
+[15:22:56] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4023477523326358908)
+[15:22:57] [Server thread/INFO]: Preparing spawn area: 12%
+[15:22:58] [Server thread/INFO]: Preparing spawn area: 33%
+[15:22:59] [Server thread/INFO]: Preparing spawn area: 53%
+[15:23:00] [Server thread/INFO]: Preparing spawn area: 85%
+[15:23:01] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4023477523326358908)
+[15:23:02] [Server thread/INFO]: Preparing spawn area: 84%
+[15:23:02] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[15:23:02] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[15:23:02] [Server thread/INFO]: [ClearLag] Config not found. Generating default config...
+[15:23:02] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:23:02] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:23:02] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:23:02] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:23:02] [Thread-7/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 1: Initial
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 2: Add uuid mode
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 3: Fix inventories
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[15:23:02] [Thread-7/INFO]: [ClearLag] No updates found!
+[15:23:02] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[15:23:02] [Server thread/INFO]: [PickBoat] Enabling PickBoat v0.5
+[15:23:02] [Server thread/INFO]: PickBoat version 0.5 is enabled!
+
+[15:23:02] [Server thread/INFO]: Done (18.569s)! For help, type "help" or "?"
+[15:23:02] [Server thread/INFO]: Timings Reset
+[15:30:21] [Thread-8/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[15:30:21] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:54436] logged in with entity id 1713 at ([world]123.5, 68.0, 274.5)
+[15:32:21] [Server thread/INFO]: The_Narrator966 lost connection: Login timed out!
+[15:32:21] [Server thread/INFO]: The_Narrator966 left the game.
+[15:32:21] [Server thread/WARN]: handleDisconnection() called twice
+[15:34:01] [Thread-9/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[15:34:01] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:33474] logged in with entity id 2176 at ([world]123.5, 68.0, 274.5)
+[15:36:08] [Server thread/INFO]: The_Narrator966 issued server command: /lp
+[15:38:50] [Async Chat Thread - #0/INFO]: <The_Narrator966> lp user The_Narrator966 permission set luckperms.* true[m
+
+[15:38:59] [Server thread/INFO]: The_Narrator966 issued server command: /lp user The_Narrator966 permission set luckperms.* true
+[15:39:03] [Server thread/INFO]: The_Narrator966 issued server command: /lp
+[15:41:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;32;1mSet [0;36;1mluckperms.*[0;32;1m to [0;36;1mtrue[0;32;1m for [0;36;1mthe_narrator966[0;32;1m in context [0;33;1mglobal[0;32;1m.[m
+
+[15:41:51] [Server thread/INFO]: The_Narrator966 issued server command: /lp
+[15:41:56] [Server thread/INFO]: The_Narrator966 issued server command: /lp help
+[15:42:28] [Server thread/INFO]: The_Narrator966 was slain by Zombie
+[15:46:01] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[15:46:01] [Server thread/INFO]: The_Narrator966 left the game.
+[15:52:14] [Thread-10/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[15:52:14] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:41232] logged in with entity id 2590 at ([world]119.27927574741076, 65.0, 261.60278679837677)
+[15:52:39] [Server thread/INFO]: The_Narrator966 has just earned the achievement [Taking Inventory]
+[15:56:59] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[15:56:59] [Server thread/INFO]: The_Narrator966 left the game.
+[15:58:30] [Thread-11/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[15:58:30] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:59834] logged in with entity id 2864 at ([world]141.1748437345332, 64.0, 302.171615845166)
+[16:08:22] [Server thread/INFO]: The_Narrator966 issued server command: /lp creategroup admin
+[16:08:22] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[16:08:22] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
+
+[16:08:29] [Server thread/INFO]: The_Narrator966 issued server command: /gamemode c
+[16:09:24] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.ban true
+[16:09:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[16:09:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.ban true[m
+
+[16:10:06] [Server thread/INFO]: The_Narrator966 issued server command: /op The_Narrator966
+[16:10:18] [Server thread/INFO]: Opped The_Narrator966
+[16:10:23] [Server thread/INFO]: The_Narrator966 issued server command: /ban
+[16:10:28] [Server thread/INFO]: The_Narrator966 issued server command: /kick
+[16:12:14] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.banlist true
+[16:12:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[16:12:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.banlist true[m
+
+[16:35:54] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[16:35:54] [Server thread/INFO]: The_Narrator966 left the game.
+[17:24:59] [Thread-12/INFO]: UUID of player artonix101 is 137abf5c-37a9-3fc5-bd9b-407a03fd6b1b
+[17:24:59] [Server thread/INFO]: artonix101[/[0:0:0:0:0:0:0:1]:45844] logged in with entity id 4922 at ([world]126.5, 64.0, 278.5)
+[17:25:28] [Server thread/INFO]: artonix101 has just earned the achievement [Taking Inventory]
+[17:27:00] [Server thread/INFO]: artonix101 lost connection: Login timed out!
+[17:27:00] [Server thread/INFO]: artonix101 left the game.
+[17:27:00] [Server thread/WARN]: handleDisconnection() called twice
+[17:38:40] [Thread-13/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[17:38:40] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:43478] logged in with entity id 5453 at ([world]168.69999998807907, 66.0, 297.34181872330396)
+[17:39:10] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.kick true
+[17:39:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:39:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.kick true[m
+
+[17:39:17] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.tp true
+[17:39:17] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:39:17] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.tp true[m
+
+[17:39:23] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.teleport true
+[17:39:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:39:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.teleport true[m
+
+[17:39:51] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.clear true
+[17:39:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:39:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.clear true[m
+
+[17:40:26] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.give true
+[17:40:26] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:40:26] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.give true[m
+
+[17:40:32] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.kill true
+[17:40:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:40:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.kill true[m
+
+[17:41:11] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.item true
+[17:41:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:41:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.item true[m
+
+[17:41:27] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.kill true
+[17:41:48] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.list true
+[17:41:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:41:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.list true[m
+
+[17:41:51] [Server thread/INFO]: The_Narrator966 issued server command: /list
+[17:42:27] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.msg true
+[17:42:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:42:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.msg true[m
+
+[17:42:32] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.tell true
+[17:42:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:42:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.tell true[m
+
+[17:42:38] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.w true
+[17:42:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:42:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.w true[m
+
+[17:42:41] [Server thread/INFO]: The_Narrator966 issued server command: /w
+[17:42:44] [Server thread/INFO]: The_Narrator966 issued server command: /tell
+[17:42:49] [Server thread/INFO]: The_Narrator966 issued server command: /msg
+[17:43:10] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.pardon true
+[17:43:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:43:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.pardon true[m
+
+[17:43:45] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.seed true
+[17:43:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:43:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.seed true[m
+
+[17:43:50] [Server thread/INFO]: The_Narrator966 issued server command: /seed
+[17:44:13] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.summon true
+[17:44:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:44:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.summon true[m
+
+[17:44:33] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.weather true
+[17:44:33] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:44:33] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.weather true[m
+
+[17:44:51] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.xp true
+[17:44:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:44:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.xp true[m
+
+[17:45:03] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.experience true
+[17:45:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[17:45:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.experience true[m
+
+[17:55:07] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[17:55:07] [Server thread/INFO]: The_Narrator966 left the game.
+[18:34:53] [Thread-14/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[18:34:53] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:33266] logged in with entity id 6174 at ([world]168.69999998807907, 66.0, 297.34181872330396)
+[18:38:16] [Server thread/INFO]: The_Narrator966 issued server command: /lp creategroup mod
+[18:38:16] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[18:38:16] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
+
+[18:38:55] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.kick true
+[18:38:55] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[18:38:55] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.kick true[m
+
+[18:42:16] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.banlist true
+[18:42:16] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[18:42:16] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.banlist true[m
+
+[18:42:20] [Server thread/INFO]: The_Narrator966 issued server command: /banlist
+[18:42:24] [Server thread/INFO]: The_Narrator966 issued server command: /whitelist
+[18:42:32] [Server thread/INFO]: The_Narrator966 issued server command: /whitelist list
+[18:43:06] [Server thread/INFO]: The_Narrator966 issued server command: /whitelist on
+[18:43:06] [Server thread/INFO]: [The_Narrator966: Turned on the whitelist]
+[18:43:19] [Server thread/INFO]: The_Narrator966 issued server command: /whitelist add The_Narrator966
+[18:43:19] [Server thread/INFO]: [The_Narrator966: Added The_Narrator966 to the whitelist]
+[18:43:41] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[18:43:41] [Server thread/INFO]: The_Narrator966 left the game.
+[18:43:51] [Thread-15/INFO]: UUID of player The_Narrator9665 is 93dbc5f0-d44e-3880-8e33-e4a6d7149962
+[18:43:51] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6a572a08[id=93dbc5f0-d44e-3880-8e33-e4a6d7149962,name=The_Narrator9665,properties={textures=[com.mojang.authlib.properties.Property@21c3a98b], isEaglerPlayer=[com.mojang.authlib.properties.Property@1fc08ddc]},legacy=false] (/[0:0:0:0:0:0:0:1]:39778): You are not whitelisted on this server!
+[18:43:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@6a572a08[id=93dbc5f0-d44e-3880-8e33-e4a6d7149962,name=The_Narrator9665,properties={textures=[com.mojang.authlib.properties.Property@21c3a98b], isEaglerPlayer=[com.mojang.authlib.properties.Property@1fc08ddc]},legacy=false] (/[0:0:0:0:0:0:0:1]:39778) lost connection: You are not whitelisted on this server!
+[18:43:57] [Thread-16/INFO]: UUID of player artonix101 is 137abf5c-37a9-3fc5-bd9b-407a03fd6b1b
+[18:43:57] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@51696e9d[id=137abf5c-37a9-3fc5-bd9b-407a03fd6b1b,name=artonix101,properties={textures=[com.mojang.authlib.properties.Property@55f1d3eb], isEaglerPlayer=[com.mojang.authlib.properties.Property@3dde65d5]},legacy=false] (/[0:0:0:0:0:0:0:1]:48602): You are not whitelisted on this server!
+[18:43:57] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@51696e9d[id=137abf5c-37a9-3fc5-bd9b-407a03fd6b1b,name=artonix101,properties={textures=[com.mojang.authlib.properties.Property@55f1d3eb], isEaglerPlayer=[com.mojang.authlib.properties.Property@3dde65d5]},legacy=false] (/[0:0:0:0:0:0:0:1]:48602): You are not whitelisted on this server!
+[18:43:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@51696e9d[id=137abf5c-37a9-3fc5-bd9b-407a03fd6b1b,name=artonix101,properties={textures=[com.mojang.authlib.properties.Property@55f1d3eb], isEaglerPlayer=[com.mojang.authlib.properties.Property@3dde65d5]},legacy=false] (/[0:0:0:0:0:0:0:1]:48602) lost connection: You are not whitelisted on this server!
+[18:44:04] [Thread-17/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[18:44:04] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:48606] logged in with entity id 6433 at ([world]168.69999998807907, 66.0, 297.34181872330396)
+[18:44:21] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[18:44:21] [Server thread/INFO]: The_Narrator966 left the game.
+[21:20:32] [Thread-18/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[21:20:32] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:40488] logged in with entity id 6453 at ([world]168.69999998807907, 66.0, 297.34181872330396)
+[21:22:38] [Server thread/INFO]: The_Narrator966 issued server command: /lp
+[21:22:59] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set
+[21:23:32] [Server thread/INFO]: The_Narrator966 issued server command: /whitelist add Raythebigback
+[21:23:32] [Server thread/INFO]: [The_Narrator966: Added Raythebigback to the whitelist]
+[21:25:51] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.tell
+[21:25:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[21:25:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.tell true[m
+
+[21:25:54] [Server thread/INFO]: The_Narrator966 issued server command: /tell
+[21:26:10] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.xp
+[21:26:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[21:26:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.xp true[m
+
+[21:26:15] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.experience
+[21:26:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[21:26:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.experience true[m
+
+[21:27:58] [Thread-19/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:27:58] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:56182] logged in with entity id 6841 at ([world]121.5, 66.0, 272.5)
+[21:28:30] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:28:30] [Server thread/INFO]: Raythebigback left the game.
+[21:28:48] [Thread-20/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:28:48] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:50410] logged in with entity id 7098 at ([world]125.8777746160261, 64.0, 285.8949396494955)
+[21:29:24] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:29:24] [Server thread/INFO]: Raythebigback left the game.
+[21:29:29] [Async Chat Thread - #1/INFO]: <The_Narrator966> lp group admin parent add mod[m
+
+[21:29:34] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin parent add mod
+[21:29:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
+
+[21:29:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add mod[m
+
+[21:30:11] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod parent add admin
+[21:30:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[21:30:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add admin[m
+
+[21:30:46] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod parent remove admin
+[21:30:46] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[21:30:46] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent remove admin[m
+
+[21:30:53] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod parent add default
+[21:30:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmod[0;30;1m)[m
+
+[21:30:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add default[m
+
+[21:31:46] [Server thread/INFO]: The_Narrator966 issued server command: /lp group default permission set minecraft.command.tell true
+[21:31:46] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
+
+[21:31:46] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set minecraft.command.tell true[m
+
+[21:33:08] [Async Chat Thread - #2/INFO]: <The_Narrator966> lp user Raythebigback parent add mod[m
+
+[21:33:13] [Server thread/INFO]: The_Narrator966 issued server command: /lp user Raythebigback parent add mod
+[21:33:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mraythebigback[0;30;1m)[m
+
+[21:33:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add mod[m
+
+[21:33:31] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[21:33:31] [Server thread/INFO]: The_Narrator966 left the game.
+[21:33:59] [Thread-21/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:33:59] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:41782] logged in with entity id 7304 at ([world]125.8777746160261, 64.0, 285.8949396494955)
+[21:34:24] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:34:24] [Server thread/INFO]: Raythebigback left the game.
+[21:37:02] [Thread-22/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:37:02] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:56920] logged in with entity id 7399 at ([world]138.51572046239238, 64.0, 302.79617702381)
+[21:37:11] [Server thread/INFO]: Raythebigback has just earned the achievement [Taking Inventory]
+[21:37:19] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:37:19] [Server thread/INFO]: Raythebigback left the game.
+[21:38:37] [Thread-23/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:38:37] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:37594] logged in with entity id 7408 at ([world]135.91772748437654, 64.0, 303.15756157803395)
+[21:38:53] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:38:53] [Server thread/INFO]: Raythebigback left the game.
+[21:39:42] [Thread-24/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[21:39:42] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:44244] logged in with entity id 7422 at ([world]174.14896102294512, 69.0, 291.51572154468414)
+[21:41:04] [Server thread/INFO]: The_Narrator966 issued server command: /tell Raythebigback hi
+[21:41:04] [Server thread/INFO]: [The_Narrator966: That player cannot be found]
+[21:41:07] [Server thread/INFO]: The_Narrator966 issued server command: /tell
+[21:42:00] [Server thread/INFO]: The_Narrator966 was slain by Enderman
+[21:42:45] [Thread-25/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:42:45] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:37916] logged in with entity id 7734 at ([world]135.91772748437654, 64.0, 303.15756157803395)
+[21:43:10] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:43:10] [Server thread/INFO]: Raythebigback left the game.
+[21:44:14] [Thread-26/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:44:14] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:42988] logged in with entity id 8479 at ([world]135.79447992353275, 64.0, 301.2887150178211)
+[21:44:15] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:44:15] [Server thread/INFO]: Raythebigback left the game.
+[21:45:14] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[21:45:14] [Server thread/INFO]: The_Narrator966 left the game.
+[21:47:24] [Thread-27/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:47:24] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:52976] logged in with entity id 8542 at ([world]135.79447992353275, 64.0, 301.2887150178211)
+[21:47:25] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:47:25] [Server thread/INFO]: Raythebigback left the game.
+[21:47:34] [Thread-28/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[21:47:34] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:44826] logged in with entity id 8543 at ([world]135.94353262096, 64.0, 299.2404127150094)
+[21:48:17] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[21:48:17] [Server thread/INFO]: The_Narrator966 left the game.
+[21:49:33] [Thread-29/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[21:49:33] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:35732] logged in with entity id 8554 at ([world]136.25011672525233, 64.0, 296.24191708008357)
+[21:50:06] [Thread-30/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:50:06] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:52094] logged in with entity id 8587 at ([world]135.79447992353275, 64.0, 301.2887150178211)
+[21:50:33] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:50:33] [Server thread/INFO]: Raythebigback left the game.
+[21:51:05] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[21:51:05] [Server thread/INFO]: The_Narrator966 left the game.
+[21:52:31] [Thread-31/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[21:52:31] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:56318] logged in with entity id 8853 at ([world]121.30000001192093, 64.0, 337.69999998807907)
+[21:53:03] [Thread-32/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:53:03] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:56060] logged in with entity id 8866 at ([world]133.80182671455938, 64.0, 316.9826263162769)
+[21:53:34] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:53:34] [Server thread/INFO]: Raythebigback left the game.
+[21:54:17] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[21:54:17] [Server thread/INFO]: The_Narrator966 left the game.
+[21:55:22] [Thread-33/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[21:55:22] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:44952] logged in with entity id 9029 at ([world]129.17004425648472, 64.0, 303.2916152868173)
+[21:56:19] [Thread-34/INFO]: UUID of player Raythebigback is 26730055-f2ef-3939-8923-1c23353835d9
+[21:56:19] [Server thread/INFO]: Raythebigback[/[0:0:0:0:0:0:0:1]:37324] logged in with entity id 9057 at ([world]134.25441927248718, 64.0, 319.7012348814822)
+[21:56:30] [Server thread/INFO]: Raythebigback lost connection: Disconnected
+[21:56:30] [Server thread/INFO]: Raythebigback left the game.
+[21:56:53] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[21:56:53] [Server thread/INFO]: The_Narrator966 left the game.
+[21:58:56] [Server thread/INFO]: /127.0.0.1:38920 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
