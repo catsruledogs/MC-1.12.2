@@ -1,0 +1,1006 @@
+[22:00:38] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[22:00:38] [Server thread/INFO]: Loading properties
+[22:00:39] [Server thread/INFO]: Default game type: SURVIVAL
+[22:00:39] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[22:00:39] [Server thread/INFO]: Debug logging is disabled
+[22:00:39] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[22:00:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[22:00:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:00:39] [Server thread/INFO]: Data value allowed items: 
+[22:00:39] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[22:00:39] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[22:00:39] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[22:00:39] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[22:00:39] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[22:00:39] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[22:00:39] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[22:00:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[22:00:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[22:00:39] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[22:00:39] [Server thread/INFO]: Generating keypair
+[22:00:39] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[22:00:39] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[22:00:39] [Server thread/INFO]: Using default channel type
+[22:00:39] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:00:39] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[22:00:39] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.121
+[22:00:40] [Server thread/INFO]: [PickBoat] Loading PickBoat v0.5
+[22:00:40] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[22:00:40] [Server thread/INFO]: [BlockKeepAlive] Loading BlockKeepAlive v0.1
+[22:00:40] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[22:00:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.121
+[22:00:40] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[22:00:40] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.121[m
+
+[22:00:40] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[22:00:40] [Server thread/INFO]: [m
+
+[22:00:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:00:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:00:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:00:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:00:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1568ms)
+[22:00:42] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[22:00:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:00:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:00:42] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[22:00:42] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[22:00:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:00:42] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:00:42] [Server thread/INFO]: Preparing level "world"
+[22:00:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:00:42] [Server thread/INFO]: Mob Spawn Range: 4
+[22:00:42] [Server thread/INFO]: Anti X-Ray: true
+[22:00:42] [Server thread/INFO]: 	Engine Mode: 1
+[22:00:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:00:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:00:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:00:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:00:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:00:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:00:42] [Server thread/INFO]: Random Lighting Updates: false
+[22:00:42] [Server thread/INFO]: Structure Info Saving: true
+[22:00:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:00:42] [Server thread/INFO]: Max Entity Collisions: 8
+[22:00:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:00:42] [Server thread/INFO]: Max TNT Explosions: 100
+[22:00:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:00:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:00:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:00:42] [Server thread/INFO]: View Distance: 4
+[22:00:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:00:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:00:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:00:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:00:42] [Server thread/INFO]: Clear tick list: false
+[22:00:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:00:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:00:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:00:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:00:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:00:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:00:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:00:42] [Server thread/INFO]: Water over lava flow speed: 5
+[22:00:42] [Server thread/INFO]: Fix TNT cannons: false
+[22:00:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:00:42] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:00:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:00:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:00:42] [Server thread/INFO]: World async lighting: false
+[22:00:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:00:42] [Server thread/INFO]: Mob Spawn Range: 4
+[22:00:42] [Server thread/INFO]: Anti X-Ray: true
+[22:00:42] [Server thread/INFO]: 	Engine Mode: 1
+[22:00:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:00:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:00:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:00:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:00:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:00:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:00:42] [Server thread/INFO]: Random Lighting Updates: false
+[22:00:42] [Server thread/INFO]: Structure Info Saving: true
+[22:00:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:00:42] [Server thread/INFO]: Max Entity Collisions: 8
+[22:00:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:00:42] [Server thread/INFO]: Max TNT Explosions: 100
+[22:00:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:00:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:00:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:00:42] [Server thread/INFO]: View Distance: 4
+[22:00:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:00:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:00:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:00:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:00:42] [Server thread/INFO]: Clear tick list: false
+[22:00:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:00:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:00:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:00:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:00:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:00:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:00:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:00:42] [Server thread/INFO]: Water over lava flow speed: 5
+[22:00:42] [Server thread/INFO]: Fix TNT cannons: false
+[22:00:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:00:42] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:00:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:00:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:00:42] [Server thread/INFO]: World async lighting: false
+[22:00:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:00:42] [Server thread/INFO]: Mob Spawn Range: 4
+[22:00:42] [Server thread/INFO]: Anti X-Ray: true
+[22:00:42] [Server thread/INFO]: 	Engine Mode: 1
+[22:00:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:00:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:00:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:00:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:00:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:00:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:00:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:00:42] [Server thread/INFO]: Random Lighting Updates: false
+[22:00:42] [Server thread/INFO]: Structure Info Saving: true
+[22:00:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:00:42] [Server thread/INFO]: Max Entity Collisions: 8
+[22:00:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:00:42] [Server thread/INFO]: Max TNT Explosions: 100
+[22:00:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:00:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:00:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:00:42] [Server thread/INFO]: View Distance: 4
+[22:00:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:00:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:00:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:00:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:00:42] [Server thread/INFO]: Clear tick list: false
+[22:00:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:00:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:00:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:00:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:00:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:00:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:00:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:00:42] [Server thread/INFO]: Water over lava flow speed: 5
+[22:00:42] [Server thread/INFO]: Fix TNT cannons: false
+[22:00:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:00:42] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:00:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:00:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:00:42] [Server thread/INFO]: World async lighting: false
+[22:00:42] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4023477523326358908)
+[22:00:43] [Server thread/INFO]: Preparing spawn area: 52%
+[22:00:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4023477523326358908)
+[22:00:45] [Server thread/INFO]: Preparing spawn area: 51%
+[22:00:45] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4023477523326358908)
+[22:00:45] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[22:00:45] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[22:00:45] [Server thread/INFO]: [ClearLag] Loading modules...
+[22:00:45] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[22:00:45] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[22:00:45] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[22:00:45] [Server thread/INFO]: [PickBoat] Enabling PickBoat v0.5
+[22:00:45] [Thread-7/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[22:00:45] [Server thread/INFO]: PickBoat version 0.5 is enabled!
+
+[22:00:45] [Server thread/INFO]: [BlockKeepAlive] Enabling BlockKeepAlive v0.1
+[22:00:45] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[22:00:46] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[22:00:46] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[22:00:46] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[22:00:46] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[22:00:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:00:46] [Server thread/INFO]: Done (3.958s)! For help, type "help" or "?"
+[22:00:46] [Server thread/INFO]: Timings Reset
+[22:00:46] [Thread-7/INFO]: [ClearLag] No updates found!
+[22:01:20] [Thread-8/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[22:01:20] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:42212] logged in with entity id 433 at ([world]-156.58370079563704, 11.0, 203.69999998807907)
+[22:01:22] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:22] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@54ac9802[
+    a=11525838
+  ]
+
+[22:01:24] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:24] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@55429624[
+    a=11527939
+  ]
+
+[22:01:26] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:26] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@707364af[
+    a=11529938
+  ]
+
+[22:01:28] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:28] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@402f9e2b[
+    a=11532037
+  ]
+
+[22:01:30] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:30] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@45f42a73[
+    a=11534038
+  ]
+
+[22:01:32] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:32] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@1634d30c[
+    a=11536137
+  ]
+
+[22:01:34] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:34] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@12a6bb71[
+    a=11538138
+  ]
+
+[22:01:36] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:36] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@e65703e[
+    a=11540237
+  ]
+
+[22:01:38] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:38] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@3ef97e4d[
+    a=11542237
+  ]
+
+[22:01:40] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:40] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@34434636[
+    a=11544336
+  ]
+
+[22:01:42] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:42] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@6812ef32[
+    a=11546338
+  ]
+
+[22:01:44] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:44] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@35f53f02[
+    a=11548437
+  ]
+
+[22:01:46] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:46] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@707af5e4[
+    a=11550437
+  ]
+
+[22:01:48] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:48] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@27338684[
+    a=11552537
+  ]
+
+[22:01:50] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:50] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@42bef722[
+    a=11554537
+  ]
+
+[22:01:53] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:53] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@646e4b3e[
+    a=11556636
+  ]
+
+[22:01:55] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:55] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@4b6925da[
+    a=11558637
+  ]
+
+[22:01:57] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:57] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@e867fe3[
+    a=11560737
+  ]
+
+[22:01:59] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:01:59] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@18a7e2b6[
+    a=11562741
+  ]
+
+[22:02:25] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 32 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:03:31] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 64 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:05:42] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 128 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:09:04] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[22:09:04] [Server thread/INFO]: The_Narrator966 left the game.
+[22:13:44] [Thread-10/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[22:13:44] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:60858] logged in with entity id 792 at ([world]-174.2555647366943, 12.0, 190.04213587542654)
+[22:14:45] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 256 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:20:51] [Server thread/INFO]: The_Narrator966 issued server command: /give The_Narrator966 diamond_pickaxe
+[22:20:51] [Server thread/INFO]: [The_Narrator966: Given [Diamond Pickaxe] * 1 to The_Narrator966]
+[22:22:17] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[22:22:17] [Server thread/INFO]: The_Narrator966 left the game.
+[22:24:57] [Thread-11/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[22:24:58] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:51244] logged in with entity id 1493 at ([world]-171.14745673936986, 11.0, 200.5246810166121)
+[22:26:11] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 512 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:29:13] [Server thread/INFO]: The_Narrator966 issued server command: /give The_Narrator966 crafting_table
+[22:29:13] [Server thread/INFO]: [The_Narrator966: Given [Crafting Table] * 1 to The_Narrator966]
+[22:33:11] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[22:33:11] [Server thread/INFO]: The_Narrator966 left the game.
+[22:33:55] [Thread-12/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[22:33:55] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:36706] logged in with entity id 1979 at ([world]-177.30000001192093, 7.0, 207.30000001192093)
+[22:34:09] [Thread-13/INFO]: UUID of player sans is 983c83d1-16a2-37c4-bfed-829c07ca6ade
+[22:34:09] [Server thread/INFO]: sans[/[0:0:0:0:0:0:0:1]:45844] logged in with entity id 2061 at ([world]229.19746095182023, 66.0, 352.4166168124044)
+[22:34:13] [Server thread/INFO]: The_Narrator966 issued server command: /tp The_Narrator966 sans
+[22:34:13] [Server thread/INFO]: [The_Narrator966: Teleported The_Narrator966 to sans]
+[22:34:21] [Server thread/INFO]: sans lost connection: Disconnected
+[22:34:21] [Server thread/INFO]: sans left the game.
+[22:34:25] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[22:34:25] [Server thread/INFO]: The_Narrator966 left the game.
+[22:35:43] [Thread-15/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[22:35:43] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:40332] logged in with entity id 2414 at ([world]227.73106425556236, 66.0, 353.30473927056215)
+[22:44:02] [Server thread/INFO]: The_Narrator966 issued server command: /give The_Narrator966 flint
+[22:44:02] [Server thread/INFO]: [The_Narrator966: Given [Flint] * 1 to The_Narrator966]
+[22:44:54] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[22:44:54] [Server thread/INFO]: The_Narrator966 left the game.
+[22:45:16] [Thread-2/INFO]: Stopping server
+[22:45:16] [Thread-2/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
