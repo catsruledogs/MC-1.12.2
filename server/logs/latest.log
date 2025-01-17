@@ -1,238 +1,236 @@
-[16:52:24] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[16:52:24] [Server thread/INFO]: Loading properties
-[16:52:24] [Server thread/INFO]: Default game type: SURVIVAL
-[16:52:24] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[16:52:24] [Server thread/INFO]: Debug logging is disabled
-[16:52:24] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[16:52:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:09:17] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:09:17] [Server thread/INFO]: Loading properties
+[14:09:17] [Server thread/INFO]: Default game type: SURVIVAL
+[14:09:18] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:09:18] [Server thread/INFO]: Debug logging is disabled
+[14:09:18] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[14:09:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:09:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[16:52:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:52:25] [Server thread/INFO]: Data value allowed items: 
-[16:52:25] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[14:09:18] [Server thread/INFO]: Data value allowed items: 
+[14:09:18] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[16:52:25] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[14:09:18] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[16:52:25] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[14:09:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[16:52:25] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[14:09:18] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[16:52:25] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[14:09:18] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[16:52:25] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[14:09:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[16:52:25] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[14:09:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[16:52:25] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[14:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[16:52:25] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[14:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[16:52:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:09:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[16:52:25] [Server thread/INFO]: Generating keypair
-[16:52:25] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[16:52:25] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[16:52:25] [Server thread/INFO]: Using default channel type
-[16:52:25] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:52:25] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[16:52:25] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.121
-[16:52:26] [Server thread/INFO]: [PickBoat] Loading PickBoat v0.5
-[16:52:26] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
-[16:52:26] [Server thread/INFO]: [BlockKeepAlive] Loading BlockKeepAlive v0.1
-[16:52:26] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[16:52:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.121
-[16:52:26] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[14:09:18] [Server thread/INFO]: Generating keypair
+[14:09:19] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[14:09:19] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[14:09:19] [Server thread/INFO]: Using default channel type
+[14:09:19] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:09:20] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[14:09:20] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.121
+[14:09:21] [Server thread/INFO]: [PickBoat] Loading PickBoat v0.5
+[14:09:21] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[14:09:22] [Server thread/INFO]: [BlockKeepAlive] Loading BlockKeepAlive v0.1
+[14:09:22] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[14:09:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.121
+[14:09:23] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
 
-[16:52:26] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.121[m
+[14:09:23] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.121[m
 
-[16:52:26] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[14:09:23] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
 
-[16:52:26] [Server thread/INFO]: [m
+[14:09:23] [Server thread/INFO]: [m
 
-[16:52:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:52:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:52:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:52:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:52:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1710ms)
-[16:52:28] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[16:52:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:52:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:52:28] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[16:52:28] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[16:52:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:52:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:52:28] [Server thread/INFO]: Preparing level "world"
-[16:52:28] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:52:28] [Server thread/INFO]: Mob Spawn Range: 4
-[16:52:28] [Server thread/INFO]: Anti X-Ray: true
-[16:52:28] [Server thread/INFO]: 	Engine Mode: 1
-[16:52:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:52:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:52:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:52:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:52:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:52:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:52:28] [Server thread/INFO]: Random Lighting Updates: false
-[16:52:28] [Server thread/INFO]: Structure Info Saving: true
-[16:52:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:52:28] [Server thread/INFO]: Max Entity Collisions: 8
-[16:52:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:52:28] [Server thread/INFO]: Max TNT Explosions: 100
-[16:52:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:52:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:52:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:52:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:52:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:52:28] [Server thread/INFO]: View Distance: 4
-[16:52:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:52:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:52:28] [Server thread/INFO]: Clear tick list: false
-[16:52:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:52:28] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:52:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:52:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:52:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:52:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:52:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:52:28] [Server thread/INFO]: Water over lava flow speed: 5
-[16:52:28] [Server thread/INFO]: Fix TNT cannons: false
-[16:52:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:52:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:52:28] [Server thread/INFO]: World async lighting: false
-[16:52:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:52:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:52:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:52:28] [Server thread/INFO]: Mob Spawn Range: 4
-[16:52:28] [Server thread/INFO]: Anti X-Ray: true
-[16:52:28] [Server thread/INFO]: 	Engine Mode: 1
-[16:52:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:52:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:52:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:52:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:52:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:52:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:52:28] [Server thread/INFO]: Random Lighting Updates: false
-[16:52:28] [Server thread/INFO]: Structure Info Saving: true
-[16:52:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:52:28] [Server thread/INFO]: Max Entity Collisions: 8
-[16:52:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:52:28] [Server thread/INFO]: Max TNT Explosions: 100
-[16:52:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:52:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:52:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:52:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:52:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:52:28] [Server thread/INFO]: View Distance: 4
-[16:52:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:52:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:52:28] [Server thread/INFO]: Clear tick list: false
-[16:52:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:52:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:52:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:52:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:52:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:52:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:52:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:52:28] [Server thread/INFO]: Water over lava flow speed: 5
-[16:52:28] [Server thread/INFO]: Fix TNT cannons: false
-[16:52:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:52:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:52:28] [Server thread/INFO]: World async lighting: false
-[16:52:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:52:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:52:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:52:28] [Server thread/INFO]: Mob Spawn Range: 4
-[16:52:28] [Server thread/INFO]: Anti X-Ray: true
-[16:52:28] [Server thread/INFO]: 	Engine Mode: 1
-[16:52:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:52:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:52:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:52:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:52:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:52:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:52:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:52:28] [Server thread/INFO]: Random Lighting Updates: false
-[16:52:28] [Server thread/INFO]: Structure Info Saving: true
-[16:52:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:52:28] [Server thread/INFO]: Max Entity Collisions: 8
-[16:52:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:52:28] [Server thread/INFO]: Max TNT Explosions: 100
-[16:52:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:52:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:52:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:52:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:52:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:52:28] [Server thread/INFO]: View Distance: 4
-[16:52:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:52:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:52:28] [Server thread/INFO]: Clear tick list: false
-[16:52:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:52:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:52:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:52:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:52:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:52:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:52:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:52:28] [Server thread/INFO]: Water over lava flow speed: 5
-[16:52:28] [Server thread/INFO]: Fix TNT cannons: false
-[16:52:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:52:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:52:28] [Server thread/INFO]: World async lighting: false
-[16:52:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:52:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:52:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4023477523326358908)
-[16:52:29] [Server thread/INFO]: Preparing spawn area: 32%
-[16:52:30] [Server thread/INFO]: Preparing spawn area: 87%
-[16:52:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4023477523326358908)
-[16:52:31] [Server thread/INFO]: Preparing spawn area: 11%
-[16:52:32] [Server thread/INFO]: Preparing spawn area: 30%
-[16:52:33] [Server thread/INFO]: Preparing spawn area: 78%
-[16:52:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4023477523326358908)
-[16:52:34] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[16:52:34] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
-[16:52:34] [Server thread/INFO]: [ClearLag] Loading modules...
-[16:52:34] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[16:52:34] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[16:52:34] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[16:52:34] [Thread-7/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
-[16:52:35] [Server thread/INFO]: [PickBoat] Enabling PickBoat v0.5
-[16:52:35] [Server thread/INFO]: PickBoat version 0.5 is enabled!
+[14:09:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:09:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:09:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:09:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:09:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4074ms)
+[14:09:26] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[14:09:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:09:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:09:26] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:09:26] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:09:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:09:26] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:09:26] [Server thread/INFO]: Preparing level "world"
+[14:09:26] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:09:26] [Server thread/INFO]: Anti X-Ray: true
+[14:09:26] [Server thread/INFO]: 	Engine Mode: 1
+[14:09:26] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:09:26] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:09:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:09:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:09:26] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:26] [Server thread/INFO]: Structure Info Saving: true
+[14:09:26] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:26] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:09:26] [Server thread/INFO]: Max Entity Collisions: 8
+[14:09:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:09:26] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:26] [Server thread/INFO]: View Distance: 4
+[14:09:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:26] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:09:26] [Server thread/INFO]: Clear tick list: false
+[14:09:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:26] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:09:26] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:09:26] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:09:26] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:09:26] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:09:26] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:09:26] [Server thread/INFO]: Water over lava flow speed: 5
+[14:09:26] [Server thread/INFO]: Fix TNT cannons: false
+[14:09:26] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:09:26] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:09:26] [Server thread/INFO]: World async lighting: false
+[14:09:26] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:09:26] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:09:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:09:27] [Server thread/INFO]: Anti X-Ray: true
+[14:09:27] [Server thread/INFO]: 	Engine Mode: 1
+[14:09:27] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:09:27] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:09:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:09:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:09:27] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:27] [Server thread/INFO]: Structure Info Saving: true
+[14:09:27] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:27] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:09:27] [Server thread/INFO]: Max Entity Collisions: 8
+[14:09:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:09:27] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:27] [Server thread/INFO]: View Distance: 4
+[14:09:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:27] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:09:27] [Server thread/INFO]: Clear tick list: false
+[14:09:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:09:27] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:09:27] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:09:27] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:09:27] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:09:27] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:09:27] [Server thread/INFO]: Water over lava flow speed: 5
+[14:09:27] [Server thread/INFO]: Fix TNT cannons: false
+[14:09:27] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:09:27] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:09:27] [Server thread/INFO]: World async lighting: false
+[14:09:27] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:09:27] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:09:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:09:27] [Server thread/INFO]: Anti X-Ray: true
+[14:09:27] [Server thread/INFO]: 	Engine Mode: 1
+[14:09:27] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:09:27] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:09:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:09:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:09:27] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:27] [Server thread/INFO]: Structure Info Saving: true
+[14:09:27] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:27] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:09:27] [Server thread/INFO]: Max Entity Collisions: 8
+[14:09:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:09:27] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:27] [Server thread/INFO]: View Distance: 4
+[14:09:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:27] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:09:27] [Server thread/INFO]: Clear tick list: false
+[14:09:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:09:27] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:09:27] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:09:27] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:09:27] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:09:27] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:09:27] [Server thread/INFO]: Water over lava flow speed: 5
+[14:09:27] [Server thread/INFO]: Fix TNT cannons: false
+[14:09:27] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:09:27] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:09:27] [Server thread/INFO]: World async lighting: false
+[14:09:27] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:09:27] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:09:27] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4023477523326358908)
+[14:09:28] [Server thread/INFO]: Preparing spawn area: 12%
+[14:09:29] [Server thread/INFO]: Preparing spawn area: 32%
+[14:09:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4023477523326358908)
+[14:09:31] [Server thread/INFO]: Preparing spawn area: 50%
+[14:09:32] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4023477523326358908)
+[14:09:32] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[14:09:32] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[14:09:33] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:09:33] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:09:33] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:09:33] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:09:33] [Thread-8/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[14:09:33] [Server thread/INFO]: [PickBoat] Enabling PickBoat v0.5
+[14:09:33] [Server thread/INFO]: PickBoat version 0.5 is enabled!
 
-[16:52:35] [Server thread/INFO]: [BlockKeepAlive] Enabling BlockKeepAlive v0.1
-[16:52:35] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[16:52:35] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:52:35] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:52:35] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:52:35] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:52:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:52:35] [Thread-7/INFO]: [ClearLag] No updates found!
-[16:52:35] [Server thread/INFO]: Done (7.761s)! For help, type "help" or "?"
-[16:52:35] [Server thread/INFO]: Timings Reset
-[16:55:31] [Thread-8/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
-[16:55:31] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:53808] logged in with entity id 476 at ([world]284.1264881938168, 93.0, 383.6986282369694)
-[16:55:33] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:09:33] [Server thread/INFO]: [BlockKeepAlive] Enabling BlockKeepAlive v0.1
+[14:09:33] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[14:09:33] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:09:33] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:09:33] [Thread-8/INFO]: [ClearLag] No updates found!
+[14:09:33] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:09:33] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:09:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:09:33] [Server thread/INFO]: Done (6.770s)! For help, type "help" or "?"
+[14:09:33] [Server thread/INFO]: Timings Reset
+[14:10:14] [Thread-10/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[14:10:15] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:38432] logged in with entity id 494 at ([world]284.1264881938168, 93.0, 383.6986282369694)
+[14:10:16] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -259,12 +257,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:33] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@528bbbb5[
-    a=12048319
+[14:10:16] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@791cf3ac[
+    a=353774
   ]
 
-[16:55:35] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:18] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -291,12 +289,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:35] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@65b95223[
-    a=12050416
+[14:10:18] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@76e24217[
+    a=355831
   ]
 
-[16:55:37] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:20] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -323,12 +321,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:37] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@5e05efb6[
-    a=12052418
+[14:10:20] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@3338166c[
+    a=357921
   ]
 
-[16:55:39] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:22] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -355,12 +353,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:39] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@515ca1d0[
-    a=12054516
+[14:10:22] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@4ee01eb1[
+    a=359922
   ]
 
-[16:55:41] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:24] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -387,12 +385,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:41] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@d06ac4e[
-    a=12056519
+[14:10:24] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@605b4641[
+    a=362022
   ]
 
-[16:55:43] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:26] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -419,12 +417,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:43] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@41daffac[
-    a=12058616
+[14:10:26] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@5295c225[
+    a=364023
   ]
 
-[16:55:45] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:28] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -451,14 +449,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:45] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@3d3a12df[
-    a=12060619
+[14:10:28] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@6a877532[
+    a=366123
   ]
 
-[16:55:47] [Async Chat Thread - #0/INFO]: <The_Narrator966> say E[m
-
-[16:55:48] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:30] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -485,12 +481,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:48] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@41731a5[
-    a=12062716
+[14:10:30] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@3dcee146[
+    a=368126
   ]
 
-[16:55:50] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:33] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -517,12 +513,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:50] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@347270dc[
-    a=12064716
+[14:10:33] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@c869ecc[
+    a=370222
   ]
 
-[16:55:52] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:35] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -549,12 +545,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:52] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@5b669561[
-    a=12066816
+[14:10:35] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@46e3b71f[
+    a=372294
   ]
 
-[16:55:54] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:37] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -581,12 +577,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:54] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@36a7d838[
-    a=12068816
+[14:10:37] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@1f70e214[
+    a=374295
   ]
 
-[16:55:56] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:39] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -613,12 +609,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:56] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@b805d50[
-    a=12070916
+[14:10:39] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@2aa3bc94[
+    a=376396
   ]
 
-[16:55:58] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:41] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -645,12 +641,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:55:58] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@2cd3286c[
-    a=12072917
+[14:10:41] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@7b702526[
+    a=378456
   ]
 
-[16:56:00] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:43] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -677,12 +673,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:56:00] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@43717d0a[
-    a=12075016
+[14:10:43] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@121f6851[
+    a=380458
   ]
 
-[16:56:02] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:45] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -709,12 +705,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:56:02] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@4b1f0b44[
-    a=12077016
+[14:10:45] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@123fb1ea[
+    a=382556
   ]
 
-[16:56:04] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:47] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -741,12 +737,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:56:04] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@42fcb5aa[
-    a=12079116
+[14:10:47] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@4f64023c[
+    a=384556
   ]
 
-[16:56:06] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:49] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -773,12 +769,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:56:06] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@c7eb693[
-    a=12081117
+[14:10:49] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@4e8f0974[
+    a=386655
   ]
 
-[16:56:08] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:51] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -805,12 +801,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:56:08] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@2b080353[
-    a=12083216
+[14:10:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@6d7f067c[
+    a=388655
   ]
 
-[16:56:10] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:10:53] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -837,12 +833,12 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:56:10] [Server thread/ERROR]: Parameters: 
-  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@17c38c1e[
-    a=12085216
+[14:10:53] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutKeepAlive@545bca4d[
+    a=390756
   ]
 
-[16:56:37] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 32 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:11:20] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 32 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -869,7 +865,7 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:57:42] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 64 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:12:25] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 64 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -896,7 +892,7 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:59:54] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 128 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:14:37] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 128 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -923,7 +919,11 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:04:16] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 256 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:15:07] [Thread-12/INFO]: UUID of player Y1Nz is ee9beae2-1812-300d-8f0a-3ba845f68889
+[14:15:07] [Server thread/INFO]: Y1Nz[/[0:0:0:0:0:0:0:1]:47596] logged in with entity id 1169 at ([world]-110.7358914440274, 12.0, 89.89806055815662)
+[14:16:03] [Server thread/INFO]: Y1Nz issued server command: /tp Y1Nz The_Narrator966
+[14:16:03] [Server thread/INFO]: [Y1Nz: Teleported Y1Nz to The_Narrator966]
+[14:17:04] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 256 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -950,104 +950,13 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:04:49] [Server thread/INFO]: The_Narrator966 issued server command: /list
-[17:12:35] [Server thread/INFO]: The_Narrator966 issued server command: /list
-[17:13:01] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 512 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
-com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
-	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
-	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
-	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
-	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
-	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
-	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
-	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:30:30] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 1024 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
-com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
-	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
-	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
-	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
-	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
-	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
-	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
-	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:38:16] [Server thread/INFO]: The_Narrator966 lost connection: Internal Exception: java.net.SocketException: Connection reset
-[17:38:16] [Server thread/INFO]: The_Narrator966 left the game.
-[18:05:18] [Thread-12/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
-[18:05:18] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:33844] logged in with entity id 1932 at ([world]284.1264881938168, 93.0, 383.6986282369694)
-[18:05:29] [Server thread/INFO]: The_Narrator966 issued server command: /list
-[18:22:43] [Server thread/INFO]: The_Narrator966 issued server command: /list
-[18:32:32] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 2048 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
-com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
-	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
-	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
-	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
-	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
-	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
-	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
-	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
-	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
-	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:36:12] [Thread-14/INFO]: UUID of player Buisness_creeper is 9914a399-f21b-3b77-ac9f-b6c06b44317c
-[18:36:13] [Server thread/INFO]: Buisness_creeper[/[0:0:0:0:0:0:0:1]:38398] logged in with entity id 2993 at ([world]849.6999999880791, 63.0, 1.5218895664754801)
-[18:39:29] [Async Chat Thread - #1/INFO]: <Buisness_creeper> finally base sweete base[m
+[14:17:09] [Async Chat Thread - #0/INFO]: <Y1Nz> Say E[m
 
-[18:59:16] [Server thread/INFO]: The_Narrator966 issued server command: /list
-[19:00:05] [Server thread/INFO]: Buisness_creeper lost connection: Disconnected
-[19:00:05] [Server thread/INFO]: Buisness_creeper left the game.
-[19:05:46] [Server thread/INFO]: The_Narrator966 issued server command: /list
-[19:18:40] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 4096 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+[14:17:11] [Async Chat Thread - #0/INFO]: <Y1Nz> E[m
+
+[14:17:20] [Async Chat Thread - #0/INFO]: <The_Narrator966> E[m
+
+[14:21:26] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 512 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
 com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
 	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
 	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
@@ -1074,14 +983,225 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bou
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:20:14] [Server thread/INFO]: The_Narrator966 issued server command: /list
-[19:22:04] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
-[19:22:04] [Server thread/INFO]: The_Narrator966 left the game.
-[19:26:20] [Thread-16/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
-[19:26:20] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:34130] logged in with entity id 5493 at ([world]284.1264881938168, 93.0, 383.6986282369694)
-[19:27:17] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
-[19:27:17] [Server thread/INFO]: The_Narrator966 left the game.
-[19:59:40] [Server console handler/ERROR]: Exception handling console input
+[14:22:37] [Thread-13/INFO]: UUID of player Kool_Kat is 28816537-887b-3829-87da-80d390bcbfa0
+[14:22:37] [Server thread/INFO]: Kool_Kat[/[0:0:0:0:0:0:0:1]:43546] logged in with entity id 2172 at ([world]133.5, 64.0, 267.5)
+[14:22:40] [Async Chat Thread - #1/INFO]: <Y1Nz> HIIIII[m
+
+[14:22:53] [Async Chat Thread - #1/INFO]: <The_Narrator966> EEEEEEEEEEEEEEE[m
+
+[14:23:08] [Server thread/INFO]: Kool_Kat has just earned the achievement [Taking Inventory]
+[14:25:03] [Server thread/INFO]: The_Narrator966 issued server command: /lp user Kool_Kat parent add admin
+[14:25:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mThe_Narrator966[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mkool_kat[0;30;1m)[m
+
+[14:25:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add admin[m
+
+[14:25:19] [Server thread/INFO]: The_Narrator966 issued server command: /tp Kool_Kat The_Narrator966
+[14:25:19] [Server thread/INFO]: [The_Narrator966: Teleported Kool_Kat to The_Narrator966]
+[14:27:10] [Server thread/INFO]: The_Narrator966 issued server command: /time set day
+[14:27:10] [Server thread/INFO]: [The_Narrator966: Set the time to 1000]
+[14:27:12] [Server thread/INFO]: Kool_Kat fell from a high place
+[14:27:19] [Server thread/INFO]: The_Narrator966 issued server command: /tp Kool_Kat The_Narrator966
+[14:27:19] [Server thread/INFO]: [The_Narrator966: Teleported Kool_Kat to The_Narrator966]
+[14:27:40] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 1024 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:30:41] [Server thread/INFO]: Kool_Kat has just earned the achievement [Getting Wood]
+[14:30:48] [Server thread/INFO]: The_Narrator966 has just earned the achievement [Time to Farm!]
+[14:31:39] [Server thread/INFO]: Kool_Kat has just earned the achievement [Benchmarking]
+[14:32:18] [Server thread/INFO]: Kool_Kat has just earned the achievement [Time to Mine!]
+[14:34:25] [Server thread/INFO]: Kool_Kat has just earned the achievement [Hot Topic]
+[14:35:01] [Server thread/WARN]: Kool_Kat moved wrongly!
+[14:38:40] [Server thread/INFO]: The_Narrator966 issued server command: /time set day
+[14:38:40] [Server thread/INFO]: [The_Narrator966: Set the time to 1000]
+[14:39:19] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 2048 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:42:57] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[14:42:57] [Server thread/INFO]: The_Narrator966 left the game.
+[14:42:57] [Server thread/INFO]: Y1Nz lost connection: Disconnected
+[14:42:57] [Server thread/INFO]: Y1Nz left the game.
+[14:42:57] [Server thread/INFO]: Kool_Kat lost connection: Disconnected
+[14:42:57] [Server thread/INFO]: Kool_Kat left the game.
+[14:43:01] [Thread-14/INFO]: UUID of player Y1Nz is ee9beae2-1812-300d-8f0a-3ba845f68889
+[14:43:01] [Server thread/INFO]: Y1Nz[/[0:0:0:0:0:0:0:1]:55242] logged in with entity id 5214 at ([world]255.57663292719872, 94.0, 367.5572630899788)
+[14:43:05] [Thread-15/INFO]: UUID of player Kool_Kat is 28816537-887b-3829-87da-80d390bcbfa0
+[14:43:05] [Server thread/INFO]: Kool_Kat[/[0:0:0:0:0:0:0:1]:37530] logged in with entity id 5274 at ([world]278.57004694748355, 79.41999998688698, 407.8357183491799)
+[14:43:08] [Thread-16/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[14:43:08] [Server thread/INFO]: The_Narrator966[/[0:0:0:0:0:0:0:1]:37540] logged in with entity id 5313 at ([world]291.34449669572666, 91.22560047149787, 357.57499998807907)
+[14:43:41] [Server thread/INFO]: The_Narrator966 fell from a high place
+[14:44:07] [Async Chat Thread - #2/INFO]: <Y1Nz> It's okay :D[m
+
+[14:44:12] [Async Chat Thread - #2/INFO]: <Y1Nz> Youll live :D[m
+
+[14:45:27] [Server thread/INFO]: The_Narrator966 fell from a high place
+[14:45:45] [Async Chat Thread - #3/INFO]: <Y1Nz> THATS MY BOSS[m
+
+[14:45:49] [Async Chat Thread - #3/INFO]: <Y1Nz> WHY IS MY BOSS DYINGG[m
+
+[14:47:14] [Server thread/INFO]: The_Narrator966 fell from a high place
+[14:48:26] [Async Chat Thread - #4/INFO]: <The_Narrator966> EEEEEEEEEEEEEEE[m
+
+[14:48:33] [Async Chat Thread - #4/INFO]: <Y1Nz> EEEEEEEEEEEEEEEEEEEEEEEE[m
+
+[14:48:42] [Server thread/INFO]: The_Narrator966 issued server command: /give The_Narrator996 exp_bottle
+[14:48:42] [Server thread/INFO]: [The_Narrator966: That player cannot be found]
+[14:48:52] [Server thread/INFO]: The_Narrator966 issued server command: /give The_Narrator996 bottle_of_exp
+[14:48:52] [Server thread/INFO]: [The_Narrator966: That player cannot be found]
+[14:49:41] [Server thread/INFO]: Y1Nz lost connection: Disconnected
+[14:49:41] [Server thread/INFO]: Y1Nz left the game.
+[14:49:47] [Server thread/INFO]: Kool_Kat lost connection: Disconnected
+[14:49:47] [Server thread/INFO]: Kool_Kat left the game.
+[14:50:22] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[14:50:22] [Server thread/INFO]: The_Narrator966 left the game.
+[14:57:46] [Thread-18/INFO]: UUID of player Artonix101______ is 841242e2-eae6-3bea-9569-06b52ea81d97
+[14:57:46] [Server thread/INFO]: Artonix101______[/[0:0:0:0:0:0:0:1]:42358] logged in with entity id 6310 at ([world]127.5, 73.0, 263.5)
+[14:59:32] [Thread-19/INFO]: UUID of player Artonix101 is a851778a-f4f9-3ddc-9b1e-cfa55c280fb2
+[14:59:32] [Server thread/INFO]: Artonix101[/[0:0:0:0:0:0:0:1]:57092] logged in with entity id 7075 at ([world]282.6214072748254, 94.0, 453.62510413521346)
+[15:02:00] [Server thread/INFO]: Artonix101______ lost connection: Disconnected
+[15:02:00] [Server thread/INFO]: Artonix101______ left the game.
+[15:33:57] [Server thread/ERROR]: [BlockKeepAlive] Unhandled exception number 4096 occurred in onPacketSending(PacketEvent) for BlockKeepAlive
+com.comphenix.protocol.reflect.FieldAccessException: Field index 0 is out of bounds for length 0
+	at com.comphenix.protocol.reflect.FieldAccessException.fromFormat(FieldAccessException.java:49) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.read(StructureModifier.java:247) ~[?:?]
+	at bka.BKA$1.onPacketSending(BKA.java:28) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invokeListener(OutboundPacketListenerSet.java:74) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.lambda$invoke$0(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.timing.TimingTracker.lambda$static$0(TimingTracker.java:7) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:123) ~[?:?]
+	at com.comphenix.protocol.injector.collection.OutboundPacketListenerSet.invoke(OutboundPacketListenerSet.java:30) ~[?:?]
+	at com.comphenix.protocol.injector.collection.PacketListenerSet.invoke(PacketListenerSet.java:102) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokeOutboundPacketListeners(PacketFilterManager.java:516) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:528) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:44) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:233) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.c(PlayerConnection.java:134) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[15:35:06] [Server thread/INFO]: Artonix101 lost connection: Disconnected
+[15:35:06] [Server thread/INFO]: Artonix101 left the game.
+[15:36:54] [Thread-21/INFO]: UUID of player Buisness_creeper is 9914a399-f21b-3b77-ac9f-b6c06b44317c
+[15:36:55] [Server thread/INFO]: Buisness_creeper[/[0:0:0:0:0:0:0:1]:55012] logged in with entity id 9299 at ([world]215.8008772090563, 68.0, 296.64302488854156)
+[15:39:47] [Server thread/INFO]: Buisness_creeper lost connection: Disconnected
+[15:39:47] [Server thread/INFO]: Buisness_creeper left the game.
+[16:01:08] [Thread-23/INFO]: UUID of player Buisness_creeper is 9914a399-f21b-3b77-ac9f-b6c06b44317c
+[16:01:08] [Server thread/INFO]: Buisness_creeper[/[0:0:0:0:0:0:0:1]:50478] logged in with entity id 9671 at ([world]218.94653170684265, 68.0, 296.9221981216721)
+[16:05:38] [Server thread/INFO]: Buisness_creeper has just earned the achievement [Bake Bread]
+[16:10:30] [Server thread/INFO]: Buisness_creeper lost connection: Disconnected
+[16:10:30] [Server thread/INFO]: Buisness_creeper left the game.
+[16:10:33] [Thread-24/INFO]: UUID of player Buisness_creeper is 9914a399-f21b-3b77-ac9f-b6c06b44317c
+[16:10:33] [Server thread/INFO]: Buisness_creeper[/[0:0:0:0:0:0:0:1]:40164] logged in with entity id 11212 at ([world]277.8302395807856, 36.0, 328.391431274536)
+[16:19:29] [Server thread/INFO]: Buisness_creeper lost connection: Disconnected
+[16:19:29] [Server thread/INFO]: Buisness_creeper left the game.
+[16:25:56] [Thread-26/INFO]: UUID of player Kool_Kat is 28816537-887b-3829-87da-80d390bcbfa0
+[16:25:56] [Server thread/INFO]: Kool_Kat[/[0:0:0:0:0:0:0:1]:55526] logged in with entity id 12642 at ([world]314.48750001192093, 59.0, 359.45949628055985)
+[16:26:05] [Server thread/INFO]: Kool_Kat lost connection: Disconnected
+[16:26:05] [Server thread/INFO]: Kool_Kat left the game.
+[16:27:29] [Thread-27/INFO]: UUID of player Y1Nz is ee9beae2-1812-300d-8f0a-3ba845f68889
+[16:27:29] [Server thread/INFO]: Y1Nz[/[0:0:0:0:0:0:0:1]:58914] logged in with entity id 12713 at ([world]256.8699882891128, 94.0, 369.5236647863801)
+[16:30:01] [Thread-28/INFO]: UUID of player Warden is 22e5ac49-533e-3721-ac71-d6963f9f0c6b
+[16:30:01] [Server thread/INFO]: Warden[/[0:0:0:0:0:0:0:1]:58480] logged in with entity id 13071 at ([world]218.4796316147094, 68.0, 295.9432105527009)
+[16:30:06] [Async Chat Thread - #5/INFO]: <Y1Nz> Hello?[m
+
+[16:30:15] [Async Chat Thread - #5/INFO]: <Y1Nz> Who r u?[m
+
+[16:30:21] [Server thread/INFO]: Warden issued server command: /hello
+[16:30:53] [Server thread/INFO]: Warden has just earned the achievement [Getting an Upgrade]
+[16:31:10] [Async Chat Thread - #5/INFO]: <Y1Nz> Warden?[m
+
+[16:31:43] [Server thread/INFO]: Warden lost connection: Disconnected
+[16:31:43] [Server thread/INFO]: Warden left the game.
+[16:39:59] [Thread-29/INFO]: UUID of player Kool_Kat is 28816537-887b-3829-87da-80d390bcbfa0
+[16:39:59] [Server thread/INFO]: Kool_Kat[/[0:0:0:0:0:0:0:1]:41456] logged in with entity id 13761 at ([world]314.48750001192093, 59.0, 359.45949628055985)
+[16:40:03] [Async Chat Thread - #6/INFO]: <Y1Nz> HIII[m
+
+[16:40:20] [Async Chat Thread - #6/INFO]: <Kool_Kat> Hii[m
+
+[16:44:36] [Server thread/INFO]: Kool_Kat lost connection: Disconnected
+[16:44:36] [Server thread/INFO]: Kool_Kat left the game.
+[16:48:38] [Thread-31/INFO]: UUID of player Kool_Kat is 28816537-887b-3829-87da-80d390bcbfa0
+[16:48:38] [Server thread/INFO]: Kool_Kat[/[0:0:0:0:0:0:0:1]:59898] logged in with entity id 14896 at ([world]322.1740803717909, 62.0, 374.03580395982993)
+[16:50:21] [Server thread/INFO]: Kool_Kat has just earned the achievement [Getting an Upgrade]
+[16:52:14] [Server thread/WARN]: Y1Nz moved wrongly!
+[16:52:14] [Server thread/WARN]: Y1Nz moved wrongly!
+[16:52:14] [Server thread/WARN]: Y1Nz moved wrongly!
+[16:58:14] [Thread-32/INFO]: UUID of player Warden is 22e5ac49-533e-3721-ac71-d6963f9f0c6b
+[16:58:14] [Server thread/INFO]: Warden[/[0:0:0:0:0:0:0:1]:52702] logged in with entity id 15958 at ([world]227.5632161702931, 61.0, 295.6051366559273)
+[16:58:16] [Server thread/INFO]: Kool_Kat hit the ground too hard
+[16:58:19] [Async Chat Thread - #7/INFO]: <Y1Nz> OH NO[m
+
+[16:59:23] [Server thread/INFO]: Warden has just earned the achievement [Time to Strike!]
+[17:00:05] [Server thread/INFO]: Y1Nz lost connection: Disconnected
+[17:00:05] [Server thread/INFO]: Y1Nz left the game.
+[17:00:09] [Server thread/INFO]: Kool_Kat lost connection: Disconnected
+[17:00:09] [Server thread/INFO]: Kool_Kat left the game.
+[17:00:14] [Server thread/INFO]: Warden lost connection: Disconnected
+[17:00:14] [Server thread/INFO]: Warden left the game.
+[17:02:36] [Thread-33/INFO]: UUID of player Warden is 22e5ac49-533e-3721-ac71-d6963f9f0c6b
+[17:02:36] [Server thread/INFO]: Warden[/[0:0:0:0:0:0:0:1]:36716] logged in with entity id 17288 at ([world]212.65478512958143, 68.0, 307.8357416321115)
+[17:04:07] [Thread-34/INFO]: UUID of player Y1Nz is ee9beae2-1812-300d-8f0a-3ba845f68889
+[17:04:07] [Server thread/INFO]: Y1Nz[/[0:0:0:0:0:0:0:1]:34310] logged in with entity id 17599 at ([world]241.75037914282407, 83.0, 428.09172720668283)
+[17:05:52] [Server thread/INFO]: Warden lost connection: Disconnected
+[17:05:52] [Server thread/INFO]: Warden left the game.
+[17:06:10] [Server thread/INFO]: Y1Nz lost connection: Disconnected
+[17:06:10] [Server thread/INFO]: Y1Nz left the game.
+[17:14:58] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Input/output error
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -1096,14 +1216,3 @@ java.io.IOException: Input/output error
 	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:79) [patched_1.8.8.jar:git-PaperSpigot-445]
-[19:59:40] [Thread-2/INFO]: Stopping server
-[19:59:40] [Thread-2/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[19:59:40] [Thread-2/INFO]: [LoginSecurity] Waiting for queued tasks...
-[19:59:40] [Thread-2/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[19:59:40] [Thread-2/INFO]: [BlockKeepAlive] Disabling BlockKeepAlive v0.1
-[19:59:40] [Thread-2/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[19:59:40] [Thread-2/INFO]: [PickBoat] Disabling PickBoat v0.5
-[19:59:40] [Thread-2/INFO]: Disabling PickBoat
-
-[19:59:40] [Thread-2/INFO]: [LuckPerms] Disabling LuckPerms v5.4.121
-[19:59:40] [Thread-2/INFO]: [LuckPerms] Starting shutdown process...
