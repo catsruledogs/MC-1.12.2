@@ -1,160 +1,214 @@
-[13:46:22] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[13:46:22] [Server thread/INFO]: Loading properties
-[13:46:22] [Server thread/INFO]: Default game type: SURVIVAL
-[13:46:22] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[13:46:22] [Server thread/INFO]: Debug logging is disabled
-[13:46:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:46:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:46:22] [Server thread/INFO]: Generating keypair
-[13:46:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:46:22] [Server thread/INFO]: Using epoll channel type
-[13:46:22] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[13:46:22] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.156
-[13:46:23] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[13:46:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:46:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[13:46:23] [Server thread/INFO]:         __    
-[13:46:23] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[13:46:23] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[13:46:23] [Server thread/INFO]: 
-[13:46:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:46:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:46:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:46:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:46:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1584ms)
-[13:46:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:46:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:46:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:46:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:46:24] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[13:46:24] [Server thread/INFO]: Preparing level "world"
-[13:46:24] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:46:24] [Server thread/INFO]: Mob Spawn Range: 4
-[13:46:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:46:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:46:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:46:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:46:24] [Server thread/INFO]: Random Lighting Updates: false
-[13:46:24] [Server thread/INFO]: Structure Info Saving: true
-[13:46:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:46:24] [Server thread/INFO]: Max TNT Explosions: 100
-[13:46:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:46:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:46:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:46:24] [Server thread/INFO]: View Distance: 10
-[13:46:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:46:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:46:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:46:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:46:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:46:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:46:25] [Server thread/INFO]: Mob Spawn Range: 4
-[13:46:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:46:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:46:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:46:25] [Server thread/INFO]: Random Lighting Updates: false
-[13:46:25] [Server thread/INFO]: Structure Info Saving: true
-[13:46:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:46:25] [Server thread/INFO]: Max TNT Explosions: 100
-[13:46:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:46:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:46:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:46:25] [Server thread/INFO]: View Distance: 10
-[13:46:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:46:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:46:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:46:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:46:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:46:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:46:25] [Server thread/INFO]: Mob Spawn Range: 4
-[13:46:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:46:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:46:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:46:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:46:25] [Server thread/INFO]: Random Lighting Updates: false
-[13:46:25] [Server thread/INFO]: Structure Info Saving: true
-[13:46:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:46:25] [Server thread/INFO]: Max TNT Explosions: 100
-[13:46:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:46:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:46:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:46:25] [Server thread/INFO]: View Distance: 10
-[13:46:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:46:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:46:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:46:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:46:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:46:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2133454973230570108)
-[13:46:26] [Server thread/INFO]: Preparing spawn area: 18%
-[13:46:27] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2133454973230570108)
-[13:46:27] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2133454973230570108)
-[13:46:27] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[13:46:27] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[13:46:27] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[13:46:27] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[13:46:27] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[13:46:27] [Server thread/INFO]: Done (3.086s)! For help, type "help" or "?"
-[13:46:27] [Server thread/INFO]: Timings Reset
-[13:46:35] [Server thread/INFO]: Opped The_Narrator966
-[13:46:42] [User Authenticator #1/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
-[13:46:42] [Server thread/INFO]: The_Narrator966[/127.0.0.1:49320] logged in with entity id 148 at ([world]92.19111031119068, 66.0, 96.66380447153723)
-[13:47:19] [Server thread/INFO]: The_Narrator966 issued server command: /time set day
-[13:47:19] [Server thread/INFO]: [The_Narrator966: Set the time to 1000]
-[13:49:39] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
-[13:49:39] [Server thread/INFO]: The_Narrator966 left the game
-[13:49:40] [User Authenticator #2/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
-[13:49:41] [Server thread/INFO]: The_Narrator966[/127.0.0.1:56738] logged in with entity id 451 at ([world]17.742028822190015, 72.0, 139.68834567925313)
-[13:49:45] [Server thread/INFO]: The_Narrator966 issued server command: /gamemode s
-[13:49:45] [Server thread/INFO]: [The_Narrator966: Set own game mode to Survival Mode]
-[13:53:25] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
-[13:53:25] [Server thread/INFO]: The_Narrator966 left the game
-[13:55:02] [User Authenticator #3/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
-[13:55:02] [Server thread/INFO]: The_Narrator966[/127.0.0.1:43566] logged in with entity id 819 at ([world]-72.12655274121775, 62.073264324665075, 171.91935120123648)
-[13:55:06] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
-[13:55:06] [Server thread/INFO]: The_Narrator966 left the game
-[13:57:30] [luckperms-command-executor/INFO]: [LP] Set luckperms.* to true for the_narrator966 in context global.
-[13:57:58] [User Authenticator #4/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
-[13:57:58] [Server thread/INFO]: The_Narrator966[/127.0.0.1:57212] logged in with entity id 925 at ([world]-72.12655274121775, 62.073264324665075, 171.91935120123648)
-[13:58:12] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
-[13:58:12] [Server thread/INFO]: The_Narrator966 left the game
-[14:07:49] [Server thread/INFO]: Stopping server
-[14:07:49] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[14:07:49] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[14:07:49] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[14:07:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
-[14:07:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:07:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:07:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:07:49] [Server thread/INFO]: Saving players
-[14:07:49] [Server thread/INFO]: Saving worlds
-[14:07:49] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[14:07:49] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[14:07:49] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[14:37:39] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[14:37:39] [Server thread/INFO]: Loading properties
+[14:37:39] [Server thread/INFO]: Default game type: SURVIVAL
+[14:37:39] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[14:37:39] [Server thread/INFO]: Debug logging is disabled
+[14:37:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:37:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:37:39] [Server thread/INFO]: Generating keypair
+[14:37:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:37:39] [Server thread/INFO]: Using epoll channel type
+[14:37:39] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:37:40] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.156
+[14:37:40] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[14:37:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:37:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[14:37:40] [Server thread/INFO]:         __    
+[14:37:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[14:37:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:37:40] [Server thread/INFO]: 
+[14:37:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:37:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:37:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:37:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:37:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1298ms)
+[14:37:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:37:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:37:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:37:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:37:41] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:37:41] [Server thread/INFO]: Preparing level "world"
+[14:37:41] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:37:41] [Server thread/INFO]: Mob Spawn Range: 4
+[14:37:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:37:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:37:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:37:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:37:41] [Server thread/INFO]: Random Lighting Updates: false
+[14:37:41] [Server thread/INFO]: Structure Info Saving: true
+[14:37:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:37:41] [Server thread/INFO]: Max TNT Explosions: 100
+[14:37:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:37:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:37:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:37:41] [Server thread/INFO]: View Distance: 10
+[14:37:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:37:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:37:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:37:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:37:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:37:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:37:42] [Server thread/INFO]: Mob Spawn Range: 4
+[14:37:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:37:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:37:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:37:42] [Server thread/INFO]: Random Lighting Updates: false
+[14:37:42] [Server thread/INFO]: Structure Info Saving: true
+[14:37:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:37:42] [Server thread/INFO]: Max TNT Explosions: 100
+[14:37:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:37:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:37:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:37:42] [Server thread/INFO]: View Distance: 10
+[14:37:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:37:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:37:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:37:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:37:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:37:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:37:42] [Server thread/INFO]: Mob Spawn Range: 4
+[14:37:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:37:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:37:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:37:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:37:42] [Server thread/INFO]: Random Lighting Updates: false
+[14:37:42] [Server thread/INFO]: Structure Info Saving: true
+[14:37:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:37:42] [Server thread/INFO]: Max TNT Explosions: 100
+[14:37:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:37:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:37:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:37:42] [Server thread/INFO]: View Distance: 10
+[14:37:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:37:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:37:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:37:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:37:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:37:42] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2133454973230570108)
+[14:37:43] [Server thread/INFO]: Preparing spawn area: 13%
+[14:37:43] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2133454973230570108)
+[14:37:44] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2133454973230570108)
+[14:37:44] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[14:37:44] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:37:44] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:37:44] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:37:44] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:37:44] [Server thread/INFO]: Done (2.943s)! For help, type "help" or "?"
+[14:37:44] [Server thread/INFO]: Timings Reset
+[14:37:47] [Server thread/INFO]: Updater is not enabled!
+[14:37:50] [Server thread/INFO]: You must specify which player you wish to perform this action on.
+[14:38:00] [User Authenticator #1/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[14:38:01] [Server thread/INFO]: The_Narrator966[/127.0.0.1:51024] logged in with entity id 111 at ([world]-72.12655274121775, 62.073264324665075, 171.91935120123648)
+[14:39:16] [Server thread/INFO]: The_Narrator966 issued server command: /lp creategroup admin
+[14:39:16] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:39:16] [luckperms-command-executor/INFO]: [LP] LOG > create
+[14:39:21] [Server thread/INFO]: The_Narrator966 issued server command: /lp creategroup mod
+[14:39:21] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (mod)
+[14:39:21] [luckperms-command-executor/INFO]: [LP] LOG > create
+[14:39:44] [Async Chat Thread - #0/INFO]: <The_Narrator966> lp group admin parent add mod
+[14:39:48] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin parent add mod
+[14:39:48] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:39:48] [luckperms-command-executor/INFO]: [LP] LOG > parent add mod
+[14:40:03] [Async Chat Thread - #0/INFO]: <The_Narrator966> lp group mod parent add default
+[14:40:08] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod parent add default
+[14:40:08] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (mod)
+[14:40:08] [luckperms-command-executor/INFO]: [LP] LOG > parent add default
+[14:40:39] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.kick true
+[14:40:39] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (mod)
+[14:40:39] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.kick true
+[14:41:47] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.ban true
+[14:41:47] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:41:47] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.ban true
+[14:42:00] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.tell true
+[14:42:00] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:42:00] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.tell true
+[14:42:01] [Server thread/INFO]: The_Narrator966 issued server command: /tell
+[14:42:11] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.tell false
+[14:42:11] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:42:11] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.tell false
+[14:42:20] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.tell true
+[14:42:20] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (mod)
+[14:42:20] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.tell true
+[14:42:42] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.clear true
+[14:42:42] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:42:42] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.clear true
+[14:43:14] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.gamemode true
+[14:43:14] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:43:14] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.gamemode true
+[14:43:37] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.kill true
+[14:43:37] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:43:37] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.kill true
+[14:43:49] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.locate true
+[14:43:49] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:43:49] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.locate true
+[14:43:52] [Server thread/INFO]: The_Narrator966 issued server command: /locate
+[14:44:10] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.pardon true
+[14:44:10] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:44:10] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.pardon true
+[14:44:40] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.time true
+[14:44:40] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:44:40] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.time true
+[14:44:46] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.weather true
+[14:44:46] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:44:46] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.weather true
+[14:45:04] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.tp true
+[14:45:04] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:45:04] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.tp true
+[14:45:08] [Server thread/INFO]: The_Narrator966 issued server command: /lp group admin permission set minecraft.command.teleport true
+[14:45:08] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (admin)
+[14:45:08] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.teleport true
+[14:45:34] [Server thread/INFO]: The_Narrator966 issued server command: /lp group default permission set minecraft.command.tell true
+[14:45:34] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (default)
+[14:45:34] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.tell true
+[14:45:43] [Server thread/INFO]: The_Narrator966 issued server command: /lp group mod permission set minecraft.command.tell false
+[14:45:43] [luckperms-command-executor/INFO]: [LP] LOG > (The_Narrator966) [G] (mod)
+[14:45:43] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.tell false
+[14:45:47] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[14:45:47] [Server thread/INFO]: The_Narrator966 left the game
+[14:57:12] [User Authenticator #2/INFO]: UUID of player Yimmae_Yin is 83679b60-9338-343d-bf8c-23c2b4e1d51b
+[14:57:12] [Server thread/INFO]: Yimmae_Yin[/127.0.0.1:56844] logged in with entity id 471 at ([world]131.5, 67.0, 250.5)
+[14:59:26] [Server thread/INFO]: Yimmae_Yin lost connection: Disconnected
+[14:59:26] [Server thread/INFO]: Yimmae_Yin left the game
+[15:02:50] [User Authenticator #3/INFO]: UUID of player Yimmae_Yin is 83679b60-9338-343d-bf8c-23c2b4e1d51b
+[15:02:50] [Server thread/INFO]: Yimmae_Yin[/127.0.0.1:49210] logged in with entity id 667 at ([world]135.30000001192093, 70.0, 266.77061184463395)
+[15:03:51] [Server thread/INFO]: Yimmae_Yin lost connection: Disconnected
+[15:03:51] [Server thread/INFO]: Yimmae_Yin left the game
+[15:51:08] [User Authenticator #4/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[15:51:08] [Server thread/INFO]: The_Narrator966[/127.0.0.1:60560] logged in with entity id 767 at ([world]-68.63690145419142, 62.073264324665075, 45.12705155784184)
+[15:52:46] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[15:52:46] [Server thread/INFO]: The_Narrator966 left the game
+[15:53:39] [User Authenticator #5/INFO]: UUID of player The_Narrator966 is c40606c6-c3a8-3333-981c-59548fc100d1
+[15:53:39] [Server thread/INFO]: The_Narrator966[/127.0.0.1:55594] logged in with entity id 992 at ([world]-106.16026234776544, 62.073264324665075, 121.92911103430808)
+[15:59:05] [Server thread/INFO]: The_Narrator966 has made the advancement [Sweet dreams]
+[16:18:25] [Server thread/INFO]: The_Narrator966 has made the advancement [Stone Age]
+[16:21:51] [Server thread/INFO]: The_Narrator966 has made the advancement [Getting an Upgrade]
+[16:28:05] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
+[16:28:05] [Server thread/INFO]: The_Narrator966 left the game
