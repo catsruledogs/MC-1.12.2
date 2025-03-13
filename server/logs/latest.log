@@ -145,3 +145,16 @@
 [13:57:58] [Server thread/INFO]: The_Narrator966[/127.0.0.1:57212] logged in with entity id 925 at ([world]-72.12655274121775, 62.073264324665075, 171.91935120123648)
 [13:58:12] [Server thread/INFO]: The_Narrator966 lost connection: Disconnected
 [13:58:12] [Server thread/INFO]: The_Narrator966 left the game
+[14:07:49] [Server thread/INFO]: Stopping server
+[14:07:49] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[14:07:49] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[14:07:49] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[14:07:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[14:07:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:07:49] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:07:49] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:07:49] [Server thread/INFO]: Saving players
+[14:07:49] [Server thread/INFO]: Saving worlds
+[14:07:49] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[14:07:49] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[14:07:49] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
